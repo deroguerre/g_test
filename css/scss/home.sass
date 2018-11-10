@@ -1,0 +1,57 @@
+$red: #f84242
+$grey: #e5e5e5
+
+
+#section1
+    background-color: white
+    justify-content: center
+    display: flex
+    .flex-container
+        display: flex
+        justify-content: center
+        margin: 50px 0px
+        @media screen and (max-width: 1000px)
+            display: block
+        .flex-item
+            width: 250px
+            margin: 10px
+            padding: 30px
+            i
+                width: 100px
+                position: absolute
+                margin-left: -90px
+                font-size: 3em
+                text-align: center
+                color: $red
+            @media screen and (max-width: 640px)
+                width: 100%
+                // width: 100%
+                margin: 10px
+                padding: 30px 0px
+                i
+                    width: 50px
+                    position: inherit
+                    margin-left: 0px
+                    font-size: 3em
+                    text-align: center
+                    color: $red
+
+#section2
+    background-color: $grey
+    justify-content: center
+    display: flex
+    h1
+        margin: 0px
+    h5
+        margin-top: 0px
+    button
+        background-color: $red
+    #s2-content
+        float: left
+        p
+            max-width: 65%
+
+#laptop-img
+    position: absolute
+    right: 0
+    width: 40%

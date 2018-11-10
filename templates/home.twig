@@ -1,0 +1,64 @@
+{% extends 'layout.twig' %}
+
+{% block head %}
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="css/build/home.css">
+{% endblock %}
+
+{% block headerBody %}
+    <h1>Holla.</h1>
+    <p>
+        I’m
+        <b>John Doe</b>
+        a Philippines-based
+        <b>web</b>
+        &
+        <b>graphic</b>
+        designer who creates<br>
+        clean and modern design for the world of web.
+    </p>
+    <button>View my work</button>
+{% endblock %}
+
+{% block content1 %}
+    <div class="flex-container">
+        <div class="flex-item">
+            <i class="fa fa-square-o" aria-hidden="true"></i>
+            <h3>Web Design</h3>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+            <a href="">Learn more</a>
+        </div>
+        <div class="flex-item">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <h3>Mobile Design</h3>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+            <a href="">Learn more</a>
+        </div>
+        <div class="flex-item">
+            <i class="fa fa-camera" aria-hidden="true"></i>
+            <h3>Photography</h3>
+            <p>This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin.</p>
+            <a href="">Learn more</a>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content2 %}
+    <div class="container">
+        <div id="s2-content">
+            <h1>1stwebdesigner</h1>
+            <span class="legend">01 july 2013</span>
+            <p>
+                This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.<br><br>
+                <span class="legend">CLIENT</span><br>
+                Dainis Graveris<br><br>
+                <span class="legend">ROLE</span><br>
+                Designer<br><br>
+                <span class="legend">TOOLS</span><br>
+                Photoshop<br><br>
+            </p>
+            <button>View Project</button>
+        </div>
+        <img id="laptop-img" src="assets/Computer.png">
+    </div>
+{% endblock %}

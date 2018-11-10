@@ -1,0 +1,12 @@
+{
+    "name": "derog/twig",
+    "authors": [
+        {
+            "name": "gui",
+            "email": "deroguerre@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.0"
+    }
+}
